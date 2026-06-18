@@ -1,0 +1,26 @@
+.recent-projects__section {
+  background-color: #b10530;
+  border-radius: 8px;
+  position: sticky;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: left;
+  padding: 5rem;
+}
+
+.project-list {
+  padding: 3rem;
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+}
+
+.recent-projects__card {
+  padding: 5rem;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 8px;
+  color: black;
+}
