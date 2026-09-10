@@ -1,7 +1,7 @@
 import { Routes, Route, Outlet, Navigate } from "react-router-dom";
 import "./App.css";
 import { HomePage } from "./pages/home/HomePage";
-import { Navigation } from "./components/index";
+import { Navigation, Footer } from "./components/index";
 
 function Layout() {
   return (
@@ -9,6 +9,7 @@ function Layout() {
       <Navigation />
       <main>
         <Outlet />
+        <Footer />
       </main>
     </div>
   );
