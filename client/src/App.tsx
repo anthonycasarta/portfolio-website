@@ -5,7 +5,7 @@ import { Navigation } from "./components/index";
 
 function Layout() {
   return (
-    <div>
+    <div className="app-shell">
       <Navigation />
       <main>
         <Outlet />
