@@ -1,19 +1,20 @@
 .navigation {
-  background-color: #b10530;
-  border-radius: 8px;
-  position: sticky;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border: 2px solid #b10530;
+    border-radius: 8px;
+    position: sticky;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navigation__container {
-  padding: 2rem 5rem;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
+    padding: 2rem 5rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
 }
 
 .navigation__links {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
