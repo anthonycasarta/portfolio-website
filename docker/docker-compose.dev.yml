@@ -9,16 +9,6 @@ services:
       - /app/node_modules
     ports:
       - "5173:5173"
-
-  server:
-    container_name: portfolio-web-server-dev
-    build:
-      context: ../server
-      dockerfile: docker/Dockerfile.dev
-    volumes:
-      - ../server:/app
-      - /app/node_modules
-    ports:
-      - "3000:3000"
+    command: npm run dev -- --host 0.0.0.0
     environment:
-      - NODE_ENV=development
+      CHOKIDAR_USEPOLLING: "true"
